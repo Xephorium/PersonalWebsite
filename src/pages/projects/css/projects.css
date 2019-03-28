@@ -6,16 +6,17 @@
 }
 
 .jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-  background-color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: var(--jumbotron-padding-y);
+  margin-bottom: var(--jumbotron-padding-y);
   border-radius: 0px;
+  background-color: #ffffff00;
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    margin-top: calc(var(--jumbotron-padding-y) * 2);
+    margin-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
 }
 
@@ -50,8 +51,16 @@ footer p {
 
 /*--- Custom Page CSS ---*/
 
+body {
+    background-color: #fff;
+}
+
 .bg-dark {
     background-color: #444 !important;
+}
+
+.navigation-bar {
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
 
 .navbar-brand-icon {
@@ -73,6 +82,7 @@ footer p {
     position: relative;
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
     transition: all 0.25s ease-in-out;
 }
 
@@ -133,4 +143,8 @@ footer p {
   padding: 0 20px;
   font-weight: 400;
   display: inline-block;
+}
+
+.footer {
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
