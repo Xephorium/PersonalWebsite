@@ -83,12 +83,14 @@ body {
 .inline-image-label {
     margin-bottom: 40px;
     font-size: 15px;
+    color: #00000088;
 }
 
 .page-date {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 15px;
+    color: #00000088;
 }
 
 .button {
