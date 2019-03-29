@@ -65,7 +65,7 @@ body {
 .page-title {
     font-size: 36px;
     font-weight: 600;
-    color: #000000aa;
+    color: #567;
 }
 
 .page-subtitle {
@@ -83,6 +83,33 @@ body {
 .inline-image-label {
     margin-bottom: 40px;
     font-size: 15px;
+}
+
+.page-date {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    padding-bottom: 11px;
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #456;
+    background-color: #ffffff00;
+    color: #456;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #456;
+    color: #fff;
 }
 
 .footer {
