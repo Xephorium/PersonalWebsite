@@ -62,6 +62,7 @@ body {
 
 .bg-light {
     box-shadow: 0 0 100px rgba(0,0,0,0.5);
+    background-color: #f9f9f9;
 }
 
 .navigation-bar {
@@ -153,6 +154,8 @@ body {
 
 .footer {
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    background-color: #456;
+    color: #fff;
 }
 
 .footer-column {
@@ -171,6 +174,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 13px;
+    color: #ffffffaa;
 }
 
 .footer-contact-icon {
