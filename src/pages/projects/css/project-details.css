@@ -11,20 +11,91 @@ footer p {
 }
 
 
-/*--- Custom Page CSS ---*/
+/*--- Small Page Styles ---*/
 
 :root {
   --header-image-height: 500px;
 }
 
+body {
+    font-size: 14px;
+}
+
 .header-image {
   height: calc(var(--header-image-height) * .5) !important;
 }
+
+.page-title {
+    font-size: 26px;
+}
+
+.page-subtitle {
+    font-size: 20px;
+}
+
+.page-detail {
+    font-size: 12px;
+}
+
+.page-detail-icon {
+    font-size: 11px;
+}
+
+.page-detail-icon-large {
+    font-size: 12px;
+}
+
+.page-detail-icon-xlarge {
+    font-size: 13px;
+}
+
+.inline-image-label {
+    font-size: 13px;
+}
+
+
+/*--- Large Page Styles ---*/
+
 @media (min-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
     .header-image {
       height: var(--header-image-height) !important;
     }
+
+    .page-title {
+        font-size: 36px;
+    }
+
+    .page-subtitle {
+        font-size: 22px;
+    }
+
+    .page-detail {
+        font-size: 16px;
+    }
+
+    .page-detail-icon {
+        font-size: 14px;
+    }
+
+    .page-detail-icon-large {
+        font-size: 15px;
+    }
+
+    .page-detail-icon-xlarge {
+        font-size: 16px;
+    }
+
+    .inline-image-label {
+        font-size: 15px;
+    }
 }
+
+/*--- Size-Independent Styles ---*/
 
 body {
     background-color: #f9f9f9;
@@ -63,20 +134,22 @@ body {
 }
 
 .page-detail {
-    margin-top: 15px;
-    font-size: 15px;
-    color: #567;
+    color: #00000088;
+}
+
+.page-detail-badge {
+    display: inline;
+    white-space: nowrap;
+    margin-right: 6px;
 }
 
 .page-title {
-    font-size: 36px;
-    font-weight: 600;
+    font-weight: 400;
     color: #567;
 }
 
 .page-subtitle {
-    font-size: 22px;
-    font-weight: 500;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -88,12 +161,12 @@ body {
 
 .inline-image-label {
     margin-bottom: 40px;
-    font-size: 15px;
     color: #00000088;
 }
 
 .page-date {
-    //color: #00000088;
+    color: #567;
+    min-width: 100px;
 }
 
 .list {
