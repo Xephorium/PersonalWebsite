@@ -58,8 +58,14 @@ body {
 }
 
 .page-content {
-    margin-top: 30px;
-    margin-bottom: 70px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.page-detail {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #567;
 }
 
 .page-title {
@@ -87,16 +93,24 @@ body {
 }
 
 .page-date {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 15px;
-    color: #00000088;
+    //color: #00000088;
+}
+
+.image-polygon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: 74px;
+    height: 37px;
 }
 
 .button {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
     padding: 7px;
     padding-bottom: 11px;
 

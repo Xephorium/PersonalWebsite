@@ -10,6 +10,7 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="./css/project-details.css" rel="stylesheet">
 		<link href="./css/project-details-cobalt.css" rel="stylesheet">
 	</head>
@@ -65,13 +66,28 @@
 					<div class="col-md-10 col-lg-8">
 
 						<!-- Title & Subtitle -->
-						<div class="page-title text-center">
+						<div class="page-title text-left">
 							Shaka! When the Walls Fell
 						</div>
-						<div class="page-subtitle text-center">
+						<div class="page-subtitle text-left">
 							Temba, his arms wide
 						</div>
-						<hr class="page-divider mt-4 mb-4"/>
+
+						<!-- Date & Type -->
+						<div class="page-detail d-flex justify-content-between">
+							<div>
+								<i class="material-icons" style="font-size: 14px;">settings</i> Hardware
+								&nbsp;&nbsp;
+								<i class="material-icons" style="font-size: 14px;">mouse</i> Software
+								&nbsp;&nbsp;
+								<i class="fa fa-codepen" style="font-size: 14px;"></i> Modeling
+							</div>
+							<div class="page-date">
+								<i class="material-icons" style="font-size: 14px;">access_time</i> Nov. 2017
+							</div>
+						</div>
+
+						<hr class="page-divider mt-2 mb-4"/>
 
 
 						<!-- Content -->
@@ -115,7 +131,10 @@
 							keyboard with whatever nonsense first comes to mind fills me with endless joy, even after
 							hours of meaningless fluff. It's a transcendent experience. And I believe now is the time
 							to introduce a paragraph break.
-							<br/><br/>
+
+							<!-- Polygon -->
+							<img class="image-polygon" src="../../resources/images/polygon.png">
+
 							Ever since I was a child, I loved writing placeholder content. The act of spamming the
 							keyboard with whatever nonsense first comes to mind fills me with endless joy, even after
 							hours of meaningless fluff. It's a transcendent experience. And I believe now is the time
@@ -168,9 +187,6 @@
 							<br/><br/>
 							I guess for now, placeholder content will do.
 						</div>
-
-						<!-- Date -->
-						<div class="page-date text-right">Nov. 2017</div>
 
 						<!-- Return Button -->
 						<div class="button text-center" onclick="window.location='./projects.html';">Back to Projects
