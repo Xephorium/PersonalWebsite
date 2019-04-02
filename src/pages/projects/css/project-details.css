@@ -96,6 +96,12 @@ body {
     //color: #00000088;
 }
 
+.list {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
 .image-polygon {
     display: block;
     margin-left: auto;
